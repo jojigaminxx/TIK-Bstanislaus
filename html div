@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .grid-item {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .grid-item img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .grid-item h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .grid-item p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Profil Saya</h1>
+        </div>
+
+        <!-- Grid Layout -->
+        <div class="grid-container">
+            <!-- Foto Profil Section -->
+            <div class="grid-item">
+                <img src="https://github.com/jojigaminxx/TIK-Bstanislaus/blob/main/WhatsApp%20Image%202025-10-02%20at%2008.42.11.jpeg?raw=true" alt="Foto Profil">
+                <h2>Foto Profil</h2>
+                <p>Ini adalah foto profil saya.</p>
+            </div>
+            
+            <!-- My Biodata Section -->
+            <div class="grid-item">
+                <h2>MY BIODATA</h2>
+                <p>Nama: Jonathan andrew</p>
+                <p>Usia: 17 Tahun</p>
+                <p>Asal: Surabaya<p>
+            </div>
+
+            <!-- Instagram Section -->
+            <div class="grid-item">
+                <h2>IG</h2>
+                <p>jo_andrew02, jo_andrew02.id, callmejojoxzz</p>
+            </div>
+
+            <!-- Hobi Section -->
+            <div class="grid-item">
+                <h2>HOBI</h2>
+                <p>Bermain Game, Masak, Membaca Buku</p>
+            </div>
+
+            <!-- Games Section -->
+            <div class="grid-item">
+                <h2>GAMES</h2>
+                <p>Roblox, FC mobile</p>
+            </div>
+
+            <!-- Deskripsi Singkat Section -->
+            <div class="grid-item">
+                <h2>Deskripsi Singkat</h2>
+                <p>Saya seorang penggemar game, dan suka nonton film</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
