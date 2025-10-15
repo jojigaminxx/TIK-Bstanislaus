@@ -1,0 +1,93 @@
+!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas TIK - Informatika UKWMS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #cce0f5;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(to right, #cce0f5 50%, #b3e6b3 50%);
+      text-align: center;
+    }
+    .logos {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 60%;
+      margin-bottom: 20px;
+    }
+    .logos img {
+      width: 120px;
+      height: auto;
+      border-radius: 10px;
+    }
+    h2 {
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    h3 {
+      margin-top: 10px;
+      font-size: 20px;
+      color: #333;
+    }
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      width: 60%;
+      margin-top: 40px;
+    }
+    .footer div {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+    }
+    .footer img {
+      width: 25px;
+      height: 25px;
+    }
+    .copyright {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logos">
+      <img src="https://upload.wikimedia.org/wikipedia/en/2/28/St._Stanislaus_School_Logo.png" alt="Logo SMAK St. Stanislaus">
+      <img src="https://informatics.ukwms.ac.id/wp-content/uploads/2021/06/logo-informatics.png" alt="Logo Informatika UKWMS">
+    </div>
+
+    <h2>SMAK St. Stanislaus & Informatika UKWMS</h2>
+    <h3>TIK</h3>
+
+    <div class="footer">
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        smak_santo_stanislaus
+      </div>
+      <div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        informatika_ukwms
+      </div>
+    </div>
+
+    <div class="copyright">
+      © Copyright Nama_Siswa
+    </div>
+  </div>
+</body>
+</html>
