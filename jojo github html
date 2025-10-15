@@ -1,0 +1,86 @@
+<html lang="id"><head>
+        <meta> </head><body>charset="UTF-8"&gt;
+        <meta name="viewport" content="width=device-width" ,="" initial-scale="1.0">
+        <title>TIK - SMAK St. Stanislaus &amp; Informatika UKWMS</title>
+        <style>
+            body {
+                font - family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            }
+            . container {
+                background: linear-gradient(to right, hsl(199, 71%, 66%), #83e7a6);
+                padding: 30px;
+            }
+            h1, h2 {
+                margin: 10px 0;
+            }
+            .logos {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 80px;
+                margin: 20px 0;
+            }
+            .logos img {
+                width: 150px;
+                height: 150px;
+                object-fit: contain;
+                border-radius: 10px;
+            }
+            .social {
+                display: flex;
+                justify-content: center;
+                gap: 50px;
+                margin-top: 20px;
+            }
+            .social div {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+            }
+            .social img {
+                width: 24px;
+                height: 24px;
+            }
+            footer {
+                margin-top: 30px;
+                font-size: 14px;
+                color: #333
+            }
+            </style>
+            
+            
+
+                <div class="container">
+                    <h1>SMAK St. Stanislaus</h1>
+                    <h2>&amp; Informatika UKWMS</h2>
+                    <h2>TIK</h2>
+
+                    <div class="logos">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVEFHEDDsPhAp6U0Sm6abspicVJ5LTe-lYNQ&amp;s" alt="Logo SMAK St. Stanislaus">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS7rIKM6v-QP9KclcZTlq92AUL1Z3gycKKOg&amp;s" alt="Logo Informatika UKWMS">
+                    </div>
+
+                    <div class="social">
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+
+                            <span>@smak_santo_stanislaus</span>
+                        </div>
+                        <div>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+                            <span>@informatika_ukwms</span>
+                        </div>
+                    </div>
+
+                    <footer>
+                        Copyright Jonathan Andrew
+
+            
+            
+</footer>
+</div>
+</body>
+</html>
